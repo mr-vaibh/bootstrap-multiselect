@@ -1623,7 +1623,7 @@ describe('Bootstrap Multiselect "Filter".', function () {
                 buttonContainer: '<div id="multiselect-container"></div>',
                 enableFiltering: true,
                 templates: {
-                    filter: '<div class="multiselect-filter"><div class="input-group input-group-sm p-1"><div class="input-group-prepend"><i class="input-group-text fas fa-search"></i></div><input class="form-control multiselect-search" type="text" /><div class="input-group-append"><button class="multiselect-clear-filter input-group-text" type="button"><i class="fas fa-times"></i></button></div></div></div>'
+                    filter: '<div class="multiselect-filter"><div class="input-group input-group-sm p-1"><div class="input-group-prepend"><i class="input-group-text fa fa-search"></i></div><input class="form-control multiselect-search" type="text" /><div class="input-group-append"><button class="multiselect-clear-filter input-group-text" type="button"><i class="fa fa-times"></i></button></div></div></div>'
                 },
                 filterBehavior: 'value'
             });
@@ -1788,7 +1788,7 @@ describe('Bootstrap Multiselect "Filter".', function () {
                 buttonContainer: '<div id="multiselect-container"></div>',
                 enableFiltering: true,
                 templates: {
-                    filter: '<div class="multiselect-filter"><div class="input-group input-group-sm p-1"><div class="input-group-prepend"><i class="input-group-text fas fa-search"></i></div><input class="form-control multiselect-search" type="text" /><div class="input-group-append"><button class="multiselect-clear-filter input-group-text" type="button"><i class="fas fa-times"></i></button></div></div></div>'
+                    filter: '<div class="multiselect-filter"><div class="input-group input-group-sm p-1"><div class="input-group-prepend"><i class="input-group-text fa fa-search"></i></div><input class="form-control multiselect-search" type="text" /><div class="input-group-append"><button class="multiselect-clear-filter input-group-text" type="button"><i class="fa fa-times"></i></button></div></div></div>'
                 },
                 filterBehavior: 'value',
                 onFiltering: function () {
